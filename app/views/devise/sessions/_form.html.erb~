@@ -1,0 +1,36 @@
+<div id="user_nav">
+	<% if user_signed_in? %><font color="red">
+	Signed in as </font><font color="white"><%= current_user.email %>.</font><font color="red"> Not you?</font>
+	<%= link_to "Sign out", destroy_user_session_path, :method => :delete %>
+	<% else %>
+	<Font Color="White">For User click Here:&nbsp&nbsp&nbsp</font><%= link_to "Sign up", new_user_registration_path %> <font color="red">or</font> <%= link_to "sign in", new_user_session_path %>
+	<% end %>
+	</div>
+	
+	<div id="admin_nav">
+	<% if admin_signed_in? %><font color="red">
+	Signed in as </font><font color="white"><%= current_admin.email %>.</font><font color="red"> Not you?</font>
+	<%= link_to "Sign out", destroy_admin_session_path, :method => :delete %>
+	<% else %>
+	<Font Color="White">For Admin click Here:&nbsp</font><%= link_to "Sign up", new_admin_registration_path %> <font color="red">or</font> <%= link_to "sign in", new_admin_session_path %>
+	<% end %>
+	</div>
+
+<h2>Sign In</h2>
+<%= form_for(resource, :as => resource_name, :url => session_path(resource_name)) do |f| %>
+
+  <div><%= f.label :login %><br />
+  <%= f.text_field :login, :autofocus => true %></div>
+
+  <div><%= f.label :password %><br />
+  <%= f.password_field :password %></div>
+
+<%= render "devise/shared/links" %>
+  <% if devise_mapping.rememberable? -%>
+    <div><%= f.check_box :remember_me %> <%= f.label :remember_me %></div>
+  <% end -%>
+
+  <div><%= f.submit "Sign in" %></div>
+<% end %>
+
+

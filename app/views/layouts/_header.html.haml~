@@ -1,0 +1,43 @@
+%html
+#content.bs-doc-header
+.container1{:style => "height:150px;width:300px;background-color:yellow;float:left"}
+%h1
+%font{:color => "#6666CC"} I AM GIFTED
+%p.text-info
+An online coaching center
+%br
+%br
+%br/
+%div{:style => "height:150px;width:950px;background-color:red;float:left"}
+%img.img-rounded{:alt => "Image Not Found", :src => "http://localhost:3000/assets/img1.jpeg", :style => "height:150px;width:200px"}
+%br
+%br
+%br
+%br
+%br
+%br
+%br
+%br
+%nav.navbar.navbar-inverse{:role => "navigation"}
+.container-fluid
+.navbar-header
+%button.navbar-toggle{"data-" => "", "data-target" => "#bs-example-navbar-collapse-1", :toggle => "collapse", :type => "button"}
+%span.sr-only Toggle navigation
+%span.icon-bar
+%span.icon-bar
+%span.icon-bar
+/ Collect the nav links, forms, and other content for toggling
+#bs-example-navbar-collapse-1.collapse.navbar-collapse
+%ul.nav.navbar-nav
+
+  %li= link_to "Home", root_path
+  %li= link_to "Programs", programs_path
+  %li= link_to "NGO Services", ngoservices_path
+  %li= link_to "Board Of Services", boardofeducation_path
+  %li= link_to "About US", aboutus_path
+  %form.navbar-form.navbar-right{:role => "search"}
+  .form-group
+  %input.form-control{:placeholder => "Search", :type => "text"}
+  %button.btn.btn-primary{:type => "submit"} Submit
+  / /.navbar-collapse
+  / /.container-fluid

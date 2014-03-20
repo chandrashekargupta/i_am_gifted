@@ -1,0 +1,33 @@
+<!--<h2>Sign in</h2>
+
+<%= form_for(resource, :as => resource_name, :url => session_path(resource_name)) do |f| %>
+  <div><%= f.label :email %><br />
+  <%= f.email_field :email, :autofocus => true %></div>
+
+  <div><%= f.label :password %><br />
+  <%= f.password_field :password %></div>
+
+  <% if devise_mapping.rememberable? -%>
+    <div><%= f.check_box :remember_me %> <%= f.label :remember_me %></div>
+  <% end -%>
+
+  <div><%= f.submit "Sign in" %></div>
+<% end %>
+
+<%= render "devise/shared/links" %>-->
+
+<body>
+<div class="container">
+<div class="row" ><br><br><br>
+<form class="form-horizontal" role="form">
+<div id="form-left" class="part">
+<%= render "form" %>
+</div>
+<div id="form-midle" class="part"><embed width="100%" height="100%" controls="controls" src="https://www.youtube.com/v/M7lc1UVf-VE?version=3" type="application/x-shockwave-flash">
+</embed></div>
+<div id="form-right" class="part" ><marquee behavior="scroll" direction="up" scrollamount="1" height=170 ><p> Hello..</p><p>Welcome to I Am Gifted</p></marquee></div>
+</form>
+</div>
+</div>
+</body>
+</html>

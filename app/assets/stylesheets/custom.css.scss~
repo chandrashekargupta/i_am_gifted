@@ -1,0 +1,134 @@
+html{
+	overflow-y: scroll;
+}
+
+body {
+	padding-top: 20px;
+	background-image: url('backimg.jpg');
+}
+
+p {
+	margin-top:0px;
+	margin-right-value: 0px;
+	margin-bottom:10px;
+	margin-left-value:0px;
+ }
+		
+.footer{
+	margin-top: 10px;
+	padding-top: 10px;
+	border-top: 1px solid #eaeaea;
+	color: #999;
+}
+
+.footer-left{
+	padding: 10px 50px;
+	width:30%;
+	float:left;
+	}
+
+/*.bs-docs-header {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	font-size: 24px;
+	text-align: left;
+}
+
+.bs-docs-header {
+	margin-bootm: 40px;
+}*/
+
+
+/*.bs-docs-header {
+	position: relative;
+	padding: 30px 15px;
+	color: rgb(205,191,227);
+	test-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
+	background-color: rgb(111, 84, 153);
+	background-image: none;
+	background-repeat: repeat-x;
+}*/
+
+.container1 {
+	padding: 0px 20px;
+	}
+.part{
+	padding-top: 32px;
+	height: 300px;
+	}
+
+#form-left{
+	background-color: #E0E0E0;
+	width:34%;
+	float:left;
+	padding-top:30px;
+	padding-left:15px;
+	padding-bottom:10px;
+	margin-right:10px;
+	border-radius: 15px;
+	moz-border-radius: 15px;
+	border: 2px solid;
+	}	
+#form-midle{
+	background-color:black; 
+	width:37%;
+	float:left;
+	padding-left:0px;
+	padding-top:0px;
+	margin-right:10px;
+	border-radius: 15px;
+	moz-border-radius: 15px;
+	border: 2px solid;
+	}	
+
+#form-right{
+	background-color: #FFFFFF;
+	width:25%;
+	float:left;
+	padding-top: 30px;
+	padding-left: 10px;
+	border-radius: 15px;
+	moz-border-radius: 15px;
+	border: 2px solid;
+	}
+
+.container{
+	padding: 0px 20px 30px 0px;
+	}
+
+#Three{
+	font-family: Geostar Fill ;
+	line-height: 1em;
+	color: #66FFCC;
+	font-size: 50px;
+	text-shadow:0px 0px 0 rgb(231,231,231),1px 1px 0 rgb(216,216,216),2px 2px 0 rgb(202,202,202),3px 3px 0 rgb(187,187,187),4px 4px 0 		rgb(173,173,173),5px 5px 0 rgb(158,158,158), 6px 6px 0 rgb(144,144,144),7px 7px 6px rgba(0,0,0,0.6),7px 7px 1px rgba(0,0,0,0.5),0px 0px 6px rgba(0,0,0,.2);
+}
+
+#form-signup{
+	background-color: #E0E0E0;
+	width:25%;
+	height:100%;
+	float:left;
+	padding-top:10px;
+	padding-left:15px;
+	padding-bottom:10px;
+	margin-right:10px;
+	border-radius: 15px;
+	moz-border-radius: 15px;
+	border: 2px solid;
+	}	
+
+#form-password{
+	background-color: #E0E0E0;
+	width:35%;
+	height:100%;
+	float:left;
+	padding-top:10px;
+	padding-left:15px;
+	padding-bottom:10px;
+	margin-right:10px;
+	border-radius: 15px;
+	moz-border-radius: 15px;
+	border: 2px solid;
+	}	
+
